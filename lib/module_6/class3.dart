@@ -113,7 +113,7 @@ class MD6Class3 extends StatelessWidget {
                     ),
                     validator: (value){
                       if(value == null || value.isEmpty){
-                        return 'Please Enter Password';
+                        return 'Please Correct  Password';
                       }else if(value.length <6 ){
                         return 'Correct password';
                       }else{
